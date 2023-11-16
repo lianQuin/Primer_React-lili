@@ -44,13 +44,13 @@ const Contenido = ({producto}) => {
       <Text py='2'>
       {producto.description}
       </Text>
-      <Text as='p' fontSize='3X1' fontWeight='bold'>Precio:${producto.price}</Text>
+      <Text as='p' fontSize='3X1' fontWeight='bold'>Precio:$ {producto.price}</Text>
 
-      <Text as='p' fontSize='3X1' fontWeight='bold'>Categoria:{producto.category}</Text>
+      <Text as='p' fontSize='3X1' fontWeight='bold'>Categoria: {producto.category}</Text>
 
       <Text as='p' fontSize='3X1' fontWeight='bold'>Sku: {producto.id}</Text>
 
-      <Text as='p' fontSize='3X1' fontWeight='bold'>Cantidad en stock:{producto.cantidad}</Text>
+      <Text as='p' fontSize='3X1' fontWeight='bold'>Cantidad en stock: {producto.cantidad}</Text>
       <Text as='p' fontSize='3X1' fontWeight='bold'><strong>Colores disponobles</strong></Text>
       <Icon viewBox='0 0 200 200' color='red.500'>
          <path
