@@ -11,7 +11,7 @@ const Contenido = ({producto}) => {
     <div>
 
      <Flex as='header' >
-       <Avatar src= './public/favicon.ico/carrito.png ' w='19px' h='19px'/>
+       <Avatar src= './favicon.ico/carrito.png' w='19px' h='19px'/>
         <Box ml='3'>
          <Text fontWeight='bold'>
           Sitio ecommerce
