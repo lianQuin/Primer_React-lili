@@ -10,7 +10,7 @@ const Contenido = ({producto}) => {
     <div>
 
      <Flex as='header' >
-       <Avatar src= './favicon.ico/carrito.png' w='19px' h='19px'/>
+       <Avatar src= './favicon.ico/carrito.png'/>
         <Box ml='3'>
          <Text fontWeight='bold'>
           Sitio ecommerce
@@ -50,7 +50,7 @@ const Contenido = ({producto}) => {
       <Text as='p' fontSize='3X1' fontWeight='bold'>Sku: {producto.id}</Text>
 
       <Text as='p' fontSize='3X1' fontWeight='bold'>Cantidad en stock: {producto.cantidad}</Text>
-      <Text as='p' fontSize='3X1' fontWeight='bold'><strong>Colores disponobles</strong></Text>
+      <Text as='p' fontSize='3X1' fontWeight='bold'><strong>Colores disponibles</strong></Text>
       <Icon viewBox='0 0 200 200' color='red.500'>
          <path
          fill='currentColor'
@@ -84,7 +84,7 @@ const Contenido = ({producto}) => {
   
 </Card> 
 <Box>
-    <Text as='footer' textAlign='center' fontSize='3X1' fontWeight='bold' ><strong>@Copyright Liliana Quintana</strong></Text>
+    <Text as='footer' textAlign='center' fontSize='3X1' fontWeight='bold' ><strong>@Copyright 2023 Liliana Quintana</strong></Text>
     </Box>
 </div>  
   )
