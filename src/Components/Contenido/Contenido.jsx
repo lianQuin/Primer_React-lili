@@ -2,10 +2,9 @@ import React from 'react'
 import {Card, Box,Text, Image , Heading, Button, CardBody, CardFooter } from '@chakra-ui/react'
 import { Icon, createIcon } from '@chakra-ui/react'
 import { Badge,Flex,Avatar } from '@chakra-ui/react'
-import { color } from 'framer-motion'
+import { color } from '@chakra-ui/react'
 
 const Contenido = ({producto}) => {
-    console.log(producto.title)
     
   return (
     <div>
